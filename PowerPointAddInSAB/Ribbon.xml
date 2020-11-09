@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui" >
+  <commands>
+    <command idMso="FileSave" onAction="FileSaveOverride" />
+  </commands>
+    <ribbon>
+        <tabs>
+            <tab id="tabGCPDocumentManagement" getLabel="getLabel">
+                <group id="grpDocumentManagement" getLabel="getLabel">
+                    <button id="btnSAB" onAction="buttonSAB_Click" getLabel="getLabel" getImage="getImage" size="large"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

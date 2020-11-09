@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="msg_qst_stamp_orverwrite" xml:space="preserve">
+    <value>(EN)このファイルは既に機密区分が登録されています。選択した内容で上書きしますか？</value>
+    <comment>このファイルは既に機密区分が登録されています。選択した内容で上書きしますか？</comment>
+  </data>
+  <data name="StampDisplay_OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="StampDisplay_ON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="msg_err_properties_read" xml:space="preserve">
+    <value>(EN)プロパティ情報の読み込みが失敗しました。</value>
+    <comment>プロパティ情報の読み込みが失敗しました。</comment>
+  </data>
+  <data name="msg_err_properties_write" xml:space="preserve">
+    <value>(EN)ファイルプロパティの設定が失敗しました。</value>
+    <comment>ファイルプロパティの設定が失敗しました。</comment>
+  </data>
+  <data name="msg_err_stamp_paste" xml:space="preserve">
+    <value>(EN)スタンプ貼付け処理が失敗しました。</value>
+    <comment>スタンプ貼付け処理が失敗しました。</comment>
+  </data>
+  <data name="txt_SecrecyA" xml:space="preserve">
+    <value>Type A</value>
+  </data>
+  <data name="txt_SecrecyB" xml:space="preserve">
+    <value>Type B</value>
+  </data>
+  <data name="txt_SecrecyNone" xml:space="preserve">
+    <value>Type None</value>
+  </data>
+  <data name="txt_SecrecyS" xml:space="preserve">
+    <value>Type S</value>
+  </data>
+  <data name="msg_err_read_common_file" xml:space="preserve">
+    <value>(EN)共通設定ファイルの読み込みに失敗しました。</value>
+    <comment>共通設定ファイルの読み込みに失敗しました。</comment>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="StampA" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhaABqAIcAAP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAABACwAAAAAaABqAAAI/wADCBxIsKDBgwgTKlzIsKHDhxAj
+        SpxIsaLFixgzatzIsaPHjyBDihQJoKTJkyhTqlzJsqXLly0hwpxJs6ZNmDJv6tzJk2XOnkCD2vwptKhR
+        lUSPKjWadKnTnk2fSh36cGpKhzs9WkXZECjHrScXFt0I1mTCpRnLlkT4FKNaAAenXnxrcKtFugTLVsQr
+        kG9Ev36jSh34dq1EvoUNC24bILHiqmobZyU8GbJennkrY42sua/Ov5w/F8Rs2fFMtqI3mz7tmfLNxauv
+        tvb8unRsn5QzU1V9G7dkxam79vb9G65rmrB7Hwe+W/hw2bTNLn+ZPDZvnLafG7/usrpp3Vynx/bM/ly8
+        9OLUySs3/xi5+ras0SONPv69U/nz6efHD527XOveMcWfXaDpNaBVh0WmH4EFggWegwkauOBgEwUmYYQQ
+        PnjfXgqORiGHF2o41lwd1qVUWiXGNaJbKaoIFVnaMehcjB/OSOOG/t0oYI46ChVgj7XxCOSLQg7ZmVhG
+        HvVjktiN5CR7wT05kpJSPklllVPuiGVIV24JUpdeaqUlQ0yOiWSZQS2JJnFkrumVfW42aWOczbVJZ5Rn
+        3llnnnq6V2Sf+9kJaHxzDlpfoYauFOaijDbq6KOQRirppJRWaumlmGaq6aacdurpp6CGKuqopJZq6qmV
+        BgQAOw==
+</value>
+  </data>
+  <data name="StampB" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhaABqAIcAAP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAABACwAAAAAaABqAAAI/wADCBxIsKDBgwgTKlzIsKHDhxAj
+        SpxIsaLFixgzatzIsaPHjyBDihQJoKTJkyhTqlzJsqXLly0hwpxJs6ZNmDJv6tzJk2XOnkCD2vwptKhR
+        lUSPKjWadKnTnk2fSh36cGpKhzs9WkXZECjHrScXFt0I1mTCpRnLlkT4FKNaAAenXnxrcKtFugTLVsQr
+        kG9Ev36jSh34dq1EvoUNC24bILHiqmobO37cNfLMxUgxo72sOWzno5Jf5l05mjPWyTEJ++xL83Pi0plD
+        44SMmrRq27JF06599XZv1qYr8/4tPDjD4bGLzz6N3DNw4jVdF4YN3bjY5s5z/269Gzv17dYVYvHP7tJ3
+        +e7Nv5MPf3Y8ZeWpmYPVjht+fPl2a/+1jHq/Xvrz+RfgZIdF9tx/AtplnoIJWqXeYBMFhmCBEx7o1F0G
+        FiQXhhUuONZcGdalVFohxvWhWyWaCBVZ7m2IX4sjogcjUzLOKJR0NkZXY44rvsijVzv+qBOOQp7nY5FD
+        jqTkg1kt6SRoTi4JZZQjTUllSFZe+VGWWnbEpXhIBkVkmMkdR2aP9p3J3ZFqLpdmm7qxCed9Zs6po5x2
+        lnldnuyxxWefKv5p5JuCZtfloYgmquiijDbq6KOQRirppJRWaumlmGaq6aacdurpp6CGKuqojQYEADs=
+</value>
+  </data>
+  <data name="StampS" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhaABqAIcAAP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAABACwAAAAAaABqAAAI/wADCBxIsKDBgwgTKlzIsKHDhxAj
+        SpxIsaLFixgzatzIsaPHjyBDihQJoKTJkyhTqlzJsqXLly0hwpxJs6ZNmDJv6tzJk2XOnkCD2vwptKhR
+        lUSPKjWadKnTnk2fSh36cGpKhzs9WkXZECjHrScXFt0I1mTCpRnLlkT4FKNaAAenXnxrcKtFugTLVsQr
+        kG9Ev36jSh34dq1EvoUNC24bILHiqmob66w7ebFTyTTFUoWstybWzJbRgibMlfToro5f5kVqGifn1D5b
+        h5XtMjTs1WNfw2ZNm6ft23Gh6t69UmHlz8RdBz/NMPlNyjN/O7/aOzby6Y+tY1aOGvvj7bP7MvDX7D07
+        b/C1h0+HDhd3dPWDPTeXD7/tc7b361/e/Tcyer39AZjaYf79Z9VEgAV2nV3VMUYggA0qtVeBEeZGkYIG
+        Wnghhe4d5RaHHQqVFogFMTUihGd5RVZ5cunHYlDSvXhcdzJK6GKNWd2IY3407iiijj6OZ1yQGs5HJIwj
+        JRmicEoq6WGTTpoI5UhPTkmSlFaCVGWWH21p5JFM9gjmjF+OSSZ5Zp45ZJpqpsgmj2W++d6CcnIXZ53p
+        0YlnTEDu2Z6efp53Z6DUcWnooYgmquiijDbq6KOQRirppJRWaumlmGaq6aacdurpp6CGKqqjAQEAOw==
+</value>
+  </data>
+  <data name="msg_warning_save_not_secure" xml:space="preserve">
+    <value>(EN)指定された場所には、S秘・A秘のファイルを保管する事ができません。</value>
+  </data>
+  <data name="msg_err_includingS" xml:space="preserve">
+    <value>(EN)添付されたファイルにはS秘の情報が含まれているため外部に送信できません。</value>
+    <comment>添付されたファイルにはS秘の情報が含まれているため外部に送信できません。</comment>
+  </data>
+  <data name="msg_err_not_authorization" xml:space="preserve">
+    <value>(EN)送信許可権限がある方がCC欄に含まれていません。</value>
+    <comment>送信許可権限がある方がCC欄に含まれていません。</comment>
+  </data>
+  <data name="msg_err_not_stamp" xml:space="preserve">
+    <value>(EN)添付されたファイルには機密区分が登録されていないものが含まれているため外部に送信できません。</value>
+  </data>
+  <data name="msg_info_zip_send" xml:space="preserve">
+    <value>(EN)添付ファイルをZIP化して送信しました。</value>
+    <comment>添付ファイルをZIP化して送信しました。</comment>
+  </data>
+  <data name="msg_qst_create_zip" xml:space="preserve">
+    <value>(EN)添付ファイルをZIP化しますか？</value>
+    <comment>添付ファイルをZIP化しますか？</comment>
+  </data>
+  <data name="msg_qst_send_authorization" xml:space="preserve">
+    <value>(EN)添付されたファイルには機密情報が含まれているため、送信するには事前に上長の許可が必要です。送信しますか？</value>
+    <comment>添付されたファイルには機密情報が含まれているため、送信するには事前に上長の許可が必要です。送信しますか？</comment>
+  </data>
+  <data name="msg_qst_send_check" xml:space="preserve">
+    <value>(EN)添付ファイルの送信を許可した上長がCC欄に含まれている場合は送信を、含まれていない場合は許可者選択を、クリックして下さい。</value>
+    <comment>添付ファイルの送信を許可した上長がCC欄に含まれている場合は送信を、含まれていない場合は許可者選択を、クリックして下さい。</comment>
+  </data>
+  <data name="path_secure_folder" xml:space="preserve">
+    <value>c:\tmp\secure</value>
+  </data>
+  <data name="txt_Form_Title" xml:space="preserve">
+    <value>許可者の選択</value>
+  </data>
+  <data name="msg_err_lock_file" xml:space="preserve">
+    <value>(EN)保存を許可されていないファイルが開かれています。対象ファイルを閉じてください。</value>
+    <comment>保存を許可されていないファイルが開かれています。対象ファイルを閉じてください。</comment>
+  </data>
+  <data name="msgCancel" xml:space="preserve">
+    <value>(EN)キャンセル</value>
+  </data>
+  <data name="msgError" xml:space="preserve">
+    <value>(EN)エラー</value>
+  </data>
+  <data name="msgOutputError" xml:space="preserve">
+    <value>(EN)エラーが発生しました。</value>
+  </data>
+  <data name="msgPasswordMail" xml:space="preserve">
+    <value>(EN)メールの添付ファイルを展開するパスワードは以下の通りです。</value>
+  </data>
+  <data name="msgPasswordNotification" xml:space="preserve">
+    <value>(EN)[パスワード通知]</value>
+  </data>
+  <data name="msgPermitSelect" xml:space="preserve">
+    <value>(EN)許可者選択</value>
+  </data>
+  <data name="msgPermitSelection" xml:space="preserve">
+    <value>(EN)許可者を選択してください</value>
+  </data>
+  <data name="msgSend" xml:space="preserve">
+    <value>(EN)送信</value>
+  </data>
+  <data name="msgTempCreateError" xml:space="preserve">
+    <value>(EN)添付ファイルの一時フォルダ作成処理で失敗しました。</value>
+  </data>
+  <data name="msgTempZipError" xml:space="preserve">
+    <value>(EN)添付ファイルのZIP処理で失敗しました。</value>
+  </data>
+  <data name="msgCommonSettingError" xml:space="preserve">
+    <value>(EN)共通設定ファイルで設定していない項目があります。</value>
+  </data>
+  <data name="msgDefaultSecure" xml:space="preserve">
+    <value>(EN)標準機密区分</value>
+  </data>
+  <data name="msgFinal" xml:space="preserve">
+    <value>(EN)最終版</value>
+  </data>
+  <data name="msgFolderList" xml:space="preserve">
+    <value>(EN)セキュアフォルダリスト</value>
+  </data>
+  <data name="msgLocalPath" xml:space="preserve">
+    <value>(EN)文書のローカルパス</value>
+  </data>
+  <data name="msgOfficeCode" xml:space="preserve">
+    <value>(EN)事業所コード</value>
+  </data>
+  <data name="msgPasswordMailError" xml:space="preserve">
+    <value>(EN)パスワードメール作成処理に失敗しました。</value>
+  </data>
+  <data name="msgPermitError" xml:space="preserve">
+    <value>(EN)許可者要否のチェック処理で失敗しました。</value>
+  </data>
+  <data name="msgSendError" xml:space="preserve">
+    <value>(EN)送信可否のチェック処理で失敗しました。</value>
+  </data>
+  <data name="msgServerPath" xml:space="preserve">
+    <value>(EN)文書のサーバーパス</value>
+  </data>
+  <data name="msgSettingLanguage" xml:space="preserve">
+    <value>(EN)言語設定</value>
+  </data>
+  <data name="msgTempZipPath" xml:space="preserve">
+    <value>(EN)zip一時解凍先</value>
+  </data>
+  <data name="msgPasswordZip" xml:space="preserve">
+    <value>(EN)パスワード付きのzipを検知しました。</value>
+  </data>
+  <data name="msgUnZipError" xml:space="preserve">
+    <value>(EN)解凍できないzipを検知しました。添付ファイルを見直してください。</value>
+  </data>
+  <data name="msgCancelButtonError" xml:space="preserve">
+    <value>(EN)キャンセルボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgCCButtonError" xml:space="preserve">
+    <value>(EN)CCボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgCloseButtonError" xml:space="preserve">
+    <value>(EN)閉じるボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgOKButtonError" xml:space="preserve">
+    <value>(EN)OKボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgPermitSelectButtonError" xml:space="preserve">
+    <value>(EN)許可者選択ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgRegistButtonError" xml:space="preserve">
+    <value>(EN)登録ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgSearchButtonError" xml:space="preserve">
+    <value>(EN)検索ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgSecrecyButtonError" xml:space="preserve">
+    <value>(EN)機密区分ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgViewChangeError" xml:space="preserve">
+    <value>(EN)表示切替ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgConfirm" xml:space="preserve">
+    <value>(EN)確認</value>
+  </data>
+  <data name="msgFailedReadDocumentPath" xml:space="preserve">
+    <value>Failed to read document path in common setting file</value>
+  </data>
+  <data name="msgGCPListError" xml:space="preserve">
+    <value>(EN)GCP機密文書(SA秘)一覧表の表示に失敗しました。</value>
+  </data>
+  <data name="msgGCPListPathCheck" xml:space="preserve">
+    <value>(EN)GCP機密文書(SA秘)一覧表を開けませんでした。共通設定ファイルの文書パスを確認してください。</value>
+  </data>
+</root>

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="msg_qst_stamp_orverwrite" xml:space="preserve">
+    <value>このファイルは既に機密区分が登録されています。選択した内容で上書きしますか？</value>
+    <comment>このファイルは既に機密区分が登録されています。選択した内容で上書きしますか？</comment>
+  </data>
+  <data name="StampDisplay_OFF" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="StampDisplay_ON" xml:space="preserve">
+    <value>有</value>
+  </data>
+  <data name="msg_err_properties_read" xml:space="preserve">
+    <value>プロパティ情報の読み込みが失敗しました。</value>
+    <comment>プロパティ情報の読み込みが失敗しました。</comment>
+  </data>
+  <data name="msg_err_properties_write" xml:space="preserve">
+    <value>ファイルプロパティの設定が失敗しました。</value>
+    <comment>ファイルプロパティの設定が失敗しました。</comment>
+  </data>
+  <data name="msg_err_stamp_paste" xml:space="preserve">
+    <value>スタンプ貼付けが失敗しました。</value>
+    <comment>スタンプ貼付けが失敗しました。</comment>
+  </data>
+  <data name="txt_SecrecyA" xml:space="preserve">
+    <value>A秘</value>
+  </data>
+  <data name="txt_SecrecyB" xml:space="preserve">
+    <value>B秘</value>
+  </data>
+  <data name="txt_SecrecyNone" xml:space="preserve">
+    <value>以外</value>
+  </data>
+  <data name="txt_SecrecyS" xml:space="preserve">
+    <value>S秘</value>
+  </data>
+  <data name="msg_err_read_common_file" xml:space="preserve">
+    <value>共通設定ファイルの読み込みに失敗しました。</value>
+    <comment>共通設定ファイルの読み込みに失敗しました。</comment>
+  </data>
+  <data name="msg_err_includingS" xml:space="preserve">
+    <value>添付されたファイルにはS秘の情報が含まれているため外部に送信できません。</value>
+    <comment>添付されたファイルにはS秘の情報が含まれているため外部に送信できません。</comment>
+  </data>
+  <data name="msg_err_not_authorization" xml:space="preserve">
+    <value>送信許可権限がある方がCC欄に含まれていません。</value>
+    <comment>送信許可権限がある方がCC欄に含まれていません。</comment>
+  </data>
+  <data name="msg_err_not_stamp" xml:space="preserve">
+    <value>添付されたファイルには機密区分が登録されていないものが含まれているため外部に送信できません。</value>
+    <comment>添付されたファイルには機密区分が登録されていないものが含まれているため外部に送信できません。</comment>
+  </data>
+  <data name="msg_info_zip_send" xml:space="preserve">
+    <value>添付ファイルをZIP化して送信しました。パスワード通知メールの送信先を確認して送信してください。</value>
+    <comment>添付ファイルをZIP化して送信しました。パスワード通知メールの送信先を確認して送信してください。</comment>
+  </data>
+  <data name="msg_qst_create_zip" xml:space="preserve">
+    <value>添付ファイルをZIP化しますか？</value>
+    <comment>添付ファイルをZIP化しますか？</comment>
+  </data>
+  <data name="msg_qst_send_authorization" xml:space="preserve">
+    <value>添付されたファイルには機密情報が含まれているため、送信するには事前に上長の許可が必要です。送信しますか？</value>
+    <comment>添付されたファイルには機密情報が含まれているため、送信するには事前に上長の許可が必要です。送信しますか？</comment>
+  </data>
+  <data name="msg_qst_send_check" xml:space="preserve">
+    <value>添付ファイルの送信を許可した上長がCC欄に含まれている場合は送信を、含まれていない場合は許可者選択を、クリックして下さい。</value>
+    <comment>添付ファイルの送信を許可した上長がCC欄に含まれている場合は送信を、含まれていない場合は許可者選択を、クリックして下さい。</comment>
+  </data>
+  <data name="msg_warning_save_not_secure" xml:space="preserve">
+    <value>指定された場所には、S秘・A秘のファイルを保管する事ができません。</value>
+  </data>
+  <data name="path_secure_folder" xml:space="preserve">
+    <value>c:\tmp\secure</value>
+  </data>
+  <data name="txt_Form_Title" xml:space="preserve">
+    <value>許可者の選択</value>
+  </data>
+  <data name="msgCancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="msgError" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="msgOutputError" xml:space="preserve">
+    <value>エラーが発生しました。</value>
+  </data>
+  <data name="msgPasswordMail" xml:space="preserve">
+    <value>メールの添付ファイルを展開するパスワードは以下の通りです。
+xxx</value>
+  </data>
+  <data name="msgPasswordNotification" xml:space="preserve">
+    <value>[パスワード通知]</value>
+  </data>
+  <data name="msgPermitSelect" xml:space="preserve">
+    <value>許可者選択</value>
+  </data>
+  <data name="msgPermitSelection" xml:space="preserve">
+    <value>許可者を選択してください</value>
+  </data>
+  <data name="msgSend" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="msgTempCreateError" xml:space="preserve">
+    <value>添付ファイルの一時フォルダ作成処理で失敗しました。</value>
+  </data>
+  <data name="msgTempZipError" xml:space="preserve">
+    <value>添付ファイルのZIP処理で失敗しました。</value>
+  </data>
+  <data name="msgCommonSettingError" xml:space="preserve">
+    <value>共通設定ファイルで設定していない項目があります。</value>
+  </data>
+  <data name="msgDefaultSecure" xml:space="preserve">
+    <value>標準機密区分</value>
+  </data>
+  <data name="msgFinal" xml:space="preserve">
+    <value>最終版</value>
+  </data>
+  <data name="msgFolderList" xml:space="preserve">
+    <value>セキュアフォルダリスト</value>
+  </data>
+  <data name="msgLocalPath" xml:space="preserve">
+    <value>文書のローカルパス</value>
+  </data>
+  <data name="msgOfficeCode" xml:space="preserve">
+    <value>事業所コード</value>
+  </data>
+  <data name="msgPasswordMailError" xml:space="preserve">
+    <value>パスワードメール作成処理に失敗しました。</value>
+  </data>
+  <data name="msgPermitError" xml:space="preserve">
+    <value>許可者要否のチェック処理で失敗しました。</value>
+  </data>
+  <data name="msgSendError" xml:space="preserve">
+    <value>送信可否のチェック処理で失敗しました。</value>
+  </data>
+  <data name="msgServerPath" xml:space="preserve">
+    <value>文書のサーバーパス</value>
+  </data>
+  <data name="msgSettingLanguage" xml:space="preserve">
+    <value>言語設定</value>
+  </data>
+  <data name="msgTempZipPath" xml:space="preserve">
+    <value>zip一時解凍先</value>
+  </data>
+  <data name="msgPasswordZip" xml:space="preserve">
+    <value>パスワード付きのzipを検知しました。</value>
+  </data>
+  <data name="msgUnZipError" xml:space="preserve">
+    <value>解凍できないzipを検知しました。添付ファイルを見直してください。</value>
+  </data>
+  <data name="msgCancelButtonError" xml:space="preserve">
+    <value>キャンセルボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgCCButtonError" xml:space="preserve">
+    <value>CCボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgCloseButtonError" xml:space="preserve">
+    <value>閉じるボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgOKButtonError" xml:space="preserve">
+    <value>OKボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgPermitSelectButtonError" xml:space="preserve">
+    <value>許可者選択ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgRegistButtonError" xml:space="preserve">
+    <value>登録ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgSearchButtonError" xml:space="preserve">
+    <value>検索ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgSecrecyButtonError" xml:space="preserve">
+    <value>機密区分ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgViewChangeError" xml:space="preserve">
+    <value>表示切替ボタン押下処理でエラーが発生しました。</value>
+  </data>
+  <data name="msgGCPListError" xml:space="preserve">
+    <value>GCP機密文書(SA秘)一覧表の表示に失敗しました。</value>
+  </data>
+  <data name="msgGCPListPathCheck" xml:space="preserve">
+    <value>GCP機密文書(SA秘)一覧表を開けませんでした。</value>
+  </data>
+  <data name="msgGCPListOpenCheck" xml:space="preserve">
+    <value>既にGCP機密文書(SA秘)一覧表が開かれています。</value>
+  </data>
+  <data name="msgFailedReadDocumentPath" xml:space="preserve">
+    <value>共通設定ファイルのドキュメントのパス読み込みが失敗しました。</value>
+  </data>
+  <data name="msgConfirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+</root>
